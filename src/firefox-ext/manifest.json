@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Eat My Youtube Shorts",
+    "description": "youtube SUCKS",
+    "version": "0.0.0",
+    "author": "youtube makes me irrationally angry",
+    "homepage_url": "https://github.com/brosilio/eat-my-youtube-shorts",
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "scripting",
+        "declarativeContent"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*", "https://youtube.com/*"],
+            "run_at": "document_end",
+            "js": ["eat-my-youtube-shorts.js"]
+        }
+    ]
+}
