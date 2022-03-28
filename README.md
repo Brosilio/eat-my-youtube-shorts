@@ -1,2 +1,2 @@
 # eat-my-youtube-shorts
-browser extension to "disable" youtube shorts because theyre retarded
+i fuckgin hate youtube they are stupid and everything they do is the worst thing ever theyre retardfed and dumb as fuck. yopuitbe shorts can eat my shorts
